@@ -1,0 +1,170 @@
+[
+  {
+    "id": "bedroom_0657",
+    "room": "bedroom",
+    "sample": "0657",
+    "poster": "assets/scenes/bedroom_0657.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0715",
+    "room": "bedroom",
+    "sample": "0715",
+    "poster": "assets/scenes/bedroom_0715.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0716",
+    "room": "bedroom",
+    "sample": "0716",
+    "poster": "assets/scenes/bedroom_0716.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0730",
+    "room": "bedroom",
+    "sample": "0730",
+    "poster": "assets/scenes/bedroom_0730.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0950",
+    "room": "bedroom",
+    "sample": "0950",
+    "poster": "assets/scenes/bedroom_0950.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0951",
+    "room": "bedroom",
+    "sample": "0951",
+    "poster": "assets/scenes/bedroom_0951.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0952",
+    "room": "bedroom",
+    "sample": "0952",
+    "poster": "assets/scenes/bedroom_0952.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0955",
+    "room": "bedroom",
+    "sample": "0955",
+    "poster": "assets/scenes/bedroom_0955.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0956",
+    "room": "bedroom",
+    "sample": "0956",
+    "poster": "assets/scenes/bedroom_0956.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0968",
+    "room": "bedroom",
+    "sample": "0968",
+    "poster": "assets/scenes/bedroom_0968.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0969",
+    "room": "bedroom",
+    "sample": "0969",
+    "poster": "assets/scenes/bedroom_0969.webp",
+    "animated": true
+  },
+  {
+    "id": "bedroom_0988",
+    "room": "bedroom",
+    "sample": "0988",
+    "poster": "assets/scenes/bedroom_0988.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0001",
+    "room": "dining_room",
+    "sample": "0001",
+    "poster": "assets/scenes/dining_room_0001.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0005",
+    "room": "dining_room",
+    "sample": "0005",
+    "poster": "assets/scenes/dining_room_0005.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0019",
+    "room": "dining_room",
+    "sample": "0019",
+    "poster": "assets/scenes/dining_room_0019.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0029",
+    "room": "dining_room",
+    "sample": "0029",
+    "poster": "assets/scenes/dining_room_0029.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0037",
+    "room": "dining_room",
+    "sample": "0037",
+    "poster": "assets/scenes/dining_room_0037.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0041",
+    "room": "dining_room",
+    "sample": "0041",
+    "poster": "assets/scenes/dining_room_0041.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0046",
+    "room": "dining_room",
+    "sample": "0046",
+    "poster": "assets/scenes/dining_room_0046.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0050",
+    "room": "dining_room",
+    "sample": "0050",
+    "poster": "assets/scenes/dining_room_0050.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0052",
+    "room": "dining_room",
+    "sample": "0052",
+    "poster": "assets/scenes/dining_room_0052.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0103",
+    "room": "dining_room",
+    "sample": "0103",
+    "poster": "assets/scenes/dining_room_0103.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0112",
+    "room": "dining_room",
+    "sample": "0112",
+    "poster": "assets/scenes/dining_room_0112.webp",
+    "animated": true
+  },
+  {
+    "id": "dining_room_0146",
+    "room": "dining_room",
+    "sample": "0146",
+    "poster": "assets/scenes/dining_room_0146.webp",
+    "animated": true
+  }
+]

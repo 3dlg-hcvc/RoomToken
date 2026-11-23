@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis. Explore the representation, method, and interactive 3D results.">
+  <title>RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/vendor/bulma.min.css">
+  <link rel="stylesheet" href="assets/vendor/semlayoutdiff.css">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#results">Skip to results</a>
+  <header class="hero publication-header">
+    <div class="hero-body"><div class="container has-text-centered">
+      <h1 class="title publication-title"><span>RoomTokens:</span><br>Masked Diffusion over Structured Tokens<br class="wide-break"> for Indoor Scene Synthesis</h1>
+      <div class="publication-authors">
+        <span class="author-block"><a href="https://sun-xh.github.io/">Xiaohao Sun</a><sup>1</sup></span>
+        <span class="author-block"><a href="https://angelxuanchang.github.io/">Angel X. Chang</a><sup>1,2</sup></span>
+      </div>
+      <div class="publication-affiliations">
+        <span class="author-block"><sup>1</sup>Simon Fraser University</span>
+        <span class="author-block"><sup>2</sup>Alberta Machine Intelligence Institute (Amii)</span>
+      </div>
+      <nav class="project-links" aria-label="Project resources">
+        <button type="button" disabled title="Paper coming soon">Paper <small>Coming soon</small></button>
+        <button type="button" disabled title="Code coming soon">Code <small>Coming soon</small></button>
+        <button type="button" disabled title="Video link coming soon">Video <small>Coming soon</small></button>
+      </nav>
+    </div></div>
+  </header>
+  <main>
+    <section class="section process-section" aria-label="RoomTokens generation process">
+      <figure class="figure-wide">
+        <video id="process-video" controls muted loop playsinline preload="metadata" poster="assets/process/poster.webp" width="1920" height="1080" aria-label="Animation from masked tokens through denoising, scene assembly, and furniture retrieval">
+          <source src="assets/process/denoising.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="assets/process/denoising.mp4">Download the generation animation.</a>
+        </video>
+        <figcaption class="process-caption">Given input architecture, MDiRT generates furnished rooms using RoomTokens. This video shows the denoising process, with expanded vertical slice spacing for clarity.</figcaption>
+      </figure>
+    </section>
+    <section class="section teaser" aria-label="RoomTokens overview">
+      <figure class="figure-wide"><a href="assets/figures/teaser.webp" target="_blank" rel="noopener" aria-label="Open teaser at full resolution"><img src="assets/figures/teaser.webp" alt="RoomTokens combines semantic class, instance identity, and facing information across horizontal slices, then uses masked diffusion to synthesize furnished rooms." width="2800" loading="lazy"></a>
+      <figcaption id="abstract"><p>We generate furnished 3D rooms that respect architectural constraints. Existing object sequences lack explicit spatial relationships, while semantic maps omit height, instance identity, and orientation. We introduce RoomTokens, a sliced spatial representation that captures these cues, and MDiRT, a masked diffusion model that generates RoomTokens while keeping architecture fixed. On 3D-FRONT, our approach improves layout fidelity and physical consistency over prior methods.</p></figcaption></figure>
+    </section>
+    <section class="section" id="representation">
+      <h2 class="title is-3 has-text-centered">Data Representation</h2>
+      <figure class="figure-wide">
+        <figcaption>RoomTokens represents a 3D room as stacked horizontal slices. Each cell stores a semantic class, an instance-color label to distinguish neighboring objects, and a facing cue to recover orientation. Together, the slices preserve spatial layout, object identity, and height structure in a discrete grid.</figcaption>
+        <a href="assets/figures/data-representation.webp" target="_blank" rel="noopener" aria-label="Open data representation figure at full resolution">
+          <img src="assets/figures/data-representation.webp" alt="A room is sliced at selected heights into aligned semantic, instance-color, and facing channels." width="2800" loading="lazy">
+        </a>
+      </figure>
+    </section>
+    <section class="section" id="method">
+      <h2 class="title is-3 has-text-centered">Method Overview</h2>
+      <figure class="figure-wide">
+        <figcaption>Given input architecture, MDiRT progressively denoises masked RoomTokens while keeping architectural tokens fixed. Cross-slice attention shares information across heights to generate consistent object structure. We then group tokens into objects, recover their category, size, and pose, and retrieve and place matching 3D assets to form a furnished room.</figcaption>
+        <a href="assets/figures/method.webp" target="_blank" rel="noopener" aria-label="Open method figure at full resolution">
+          <img src="assets/figures/method.webp" alt="MDiRT denoises structured tokens with architectural conditioning and cross-slice attention, then groups objects and retrieves furniture." width="2800" loading="lazy">
+        </a>
+      </figure>
+    </section>
+    <section class="section results-section" id="results">
+      <div class="results-heading"><h2 class="title is-3">Selected MDiRT Results</h2>
+        <p>Each turntable shows the same generated scene in two representations. Drag the divider to compare the semantic room on the left with retrieved, textured furniture on the right. Use the buttons below each scene to replace the semantic view with RoomToken slices.</p></div>
+      <p class="preview-note" hidden></p>
+      <div id="gallery"></div>
+    </section>
+    <section class="section" id="method-comparison">
+      <h2 class="title is-3 has-text-centered">Method Comparison</h2>
+      <figure class="figure-wide">
+        <figcaption>Given the same floor plans, MDiRT keeps furniture within room boundaries, reduces collisions, and leaves door and window openings clearer in these examples.</figcaption>
+        <a href="assets/figures/qualitative-comparison.webp" target="_blank" rel="noopener" aria-label="Open method comparison at full resolution">
+          <img src="assets/figures/qualitative-comparison.webp" alt="Top-down 3D-FRONT layouts for the same architectural plans from DiffuScene, MiDiffusion, SemLayoutDiff, and MDiRT." width="2800" height="2919" loading="lazy">
+        </a>
+      </figure>
+    </section>
+    <section class="section" id="acknowledgements">
+      <div class="reading-width"><h2 class="title is-3 has-text-centered">Acknowledgements</h2>
+      <p>This work was funded in part by a CIFAR AI Chair and NSERC Discovery Grants, and enabled by support from the <a href="https://alliancecan.ca/">Digital Research Alliance of Canada</a> and a CFI/BCKDF JELF.</p>
+      <p>We thank Jiayi Liu and Yiming Zhang for constructive feedback and discussion.</p></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="reading-width"><p>Website adapted from <a href="https://3dlg-hcvc.github.io/SemLayoutDiff/">SemLayoutDiff</a> and <a href="https://nerfies.github.io/">Nerfies</a>, under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p></div></footer>
+</body>
+</html>

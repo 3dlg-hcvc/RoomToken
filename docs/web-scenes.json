@@ -1,0 +1,338 @@
+{
+  "bedroom_0657": {
+    "video": "assets/web-scenes/bedroom_0657/turntable-d18a3b23c52e.mp4",
+    "poster": "assets/web-scenes/bedroom_0657/poster-d18a3b23c52e.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 4779583,
+    "source_sizes": [
+      5710510,
+      7352846,
+      9632189
+    ]
+  },
+  "bedroom_0715": {
+    "video": "assets/web-scenes/bedroom_0715/turntable-6356db01e78a.mp4",
+    "poster": "assets/web-scenes/bedroom_0715/poster-6356db01e78a.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 3484474,
+    "source_sizes": [
+      2632133,
+      3696885,
+      10387593
+    ]
+  },
+  "bedroom_0716": {
+    "video": "assets/web-scenes/bedroom_0716/turntable-ef46da9e9a9d.mp4",
+    "poster": "assets/web-scenes/bedroom_0716/poster-ef46da9e9a9d.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 3413986,
+    "source_sizes": [
+      2912955,
+      4078721,
+      9486621
+    ]
+  },
+  "bedroom_0730": {
+    "video": "assets/web-scenes/bedroom_0730/turntable-029308afdccd.mp4",
+    "poster": "assets/web-scenes/bedroom_0730/poster-029308afdccd.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 3883615,
+    "source_sizes": [
+      3388449,
+      4853282,
+      10207654
+    ]
+  },
+  "bedroom_0950": {
+    "video": "assets/web-scenes/bedroom_0950/turntable-7ae2816ea449.mp4",
+    "poster": "assets/web-scenes/bedroom_0950/poster-7ae2816ea449.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 2615013,
+    "source_sizes": [
+      2123695,
+      3201188,
+      7498994
+    ]
+  },
+  "bedroom_0951": {
+    "video": "assets/web-scenes/bedroom_0951/turntable-65aa61e5bee3.mp4",
+    "poster": "assets/web-scenes/bedroom_0951/poster-65aa61e5bee3.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 3535866,
+    "source_sizes": [
+      2674086,
+      3714722,
+      9432479
+    ]
+  },
+  "bedroom_0952": {
+    "video": "assets/web-scenes/bedroom_0952/turntable-df492a4a2418.mp4",
+    "poster": "assets/web-scenes/bedroom_0952/poster-df492a4a2418.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 3098435,
+    "source_sizes": [
+      2720299,
+      3678222,
+      8661733
+    ]
+  },
+  "bedroom_0955": {
+    "video": "assets/web-scenes/bedroom_0955/turntable-625f57f5e11b.mp4",
+    "poster": "assets/web-scenes/bedroom_0955/poster-625f57f5e11b.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 3235321,
+    "source_sizes": [
+      3173086,
+      4239633,
+      8160516
+    ]
+  },
+  "bedroom_0956": {
+    "video": "assets/web-scenes/bedroom_0956/turntable-9c0aa2eec208.mp4",
+    "poster": "assets/web-scenes/bedroom_0956/poster-9c0aa2eec208.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 2506625,
+    "source_sizes": [
+      2705215,
+      3353886,
+      6266071
+    ]
+  },
+  "bedroom_0968": {
+    "video": "assets/web-scenes/bedroom_0968/turntable-3d8700c43fa2.mp4",
+    "poster": "assets/web-scenes/bedroom_0968/poster-3d8700c43fa2.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 2867665,
+    "source_sizes": [
+      2968273,
+      3476188,
+      7091726
+    ]
+  },
+  "bedroom_0969": {
+    "video": "assets/web-scenes/bedroom_0969/turntable-03dee3ac2be5.mp4",
+    "poster": "assets/web-scenes/bedroom_0969/poster-03dee3ac2be5.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 3459567,
+    "source_sizes": [
+      2977956,
+      3779489,
+      8660650
+    ]
+  },
+  "bedroom_0988": {
+    "video": "assets/web-scenes/bedroom_0988/turntable-985b50067662.mp4",
+    "poster": "assets/web-scenes/bedroom_0988/poster-985b50067662.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 3292869,
+    "source_sizes": [
+      3302217,
+      4528407,
+      8559154
+    ]
+  },
+  "dining_room_0001": {
+    "video": "assets/web-scenes/dining_room_0001/turntable-b48a47e31daf.mp4",
+    "poster": "assets/web-scenes/dining_room_0001/poster-b48a47e31daf.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 1700488,
+    "source_sizes": [
+      2085188,
+      2754449,
+      3549477
+    ]
+  },
+  "dining_room_0005": {
+    "video": "assets/web-scenes/dining_room_0005/turntable-09445ce5dded.mp4",
+    "poster": "assets/web-scenes/dining_room_0005/poster-09445ce5dded.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 2598297,
+    "source_sizes": [
+      2406179,
+      3554365,
+      6786082
+    ]
+  },
+  "dining_room_0019": {
+    "video": "assets/web-scenes/dining_room_0019/turntable-bd69ff2bae61.mp4",
+    "poster": "assets/web-scenes/dining_room_0019/poster-bd69ff2bae61.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 2215505,
+    "source_sizes": [
+      2242005,
+      2655035,
+      5685455
+    ]
+  },
+  "dining_room_0029": {
+    "video": "assets/web-scenes/dining_room_0029/turntable-308a56f5c864.mp4",
+    "poster": "assets/web-scenes/dining_room_0029/poster-308a56f5c864.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 1710812,
+    "source_sizes": [
+      1985076,
+      2559589,
+      3641923
+    ]
+  },
+  "dining_room_0037": {
+    "video": "assets/web-scenes/dining_room_0037/turntable-ae6415868e2d.mp4",
+    "poster": "assets/web-scenes/dining_room_0037/poster-ae6415868e2d.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 1758948,
+    "source_sizes": [
+      2183956,
+      2923626,
+      3561210
+    ]
+  },
+  "dining_room_0041": {
+    "video": "assets/web-scenes/dining_room_0041/turntable-ceffb9c93bc8.mp4",
+    "poster": "assets/web-scenes/dining_room_0041/poster-ceffb9c93bc8.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 2295833,
+    "source_sizes": [
+      2782400,
+      3795244,
+      4702090
+    ]
+  },
+  "dining_room_0046": {
+    "video": "assets/web-scenes/dining_room_0046/turntable-612a69ac951d.mp4",
+    "poster": "assets/web-scenes/dining_room_0046/poster-612a69ac951d.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 2884872,
+    "source_sizes": [
+      2934754,
+      3635755,
+      6264931
+    ]
+  },
+  "dining_room_0050": {
+    "video": "assets/web-scenes/dining_room_0050/turntable-fa1df252b36e.mp4",
+    "poster": "assets/web-scenes/dining_room_0050/poster-fa1df252b36e.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 1743726,
+    "source_sizes": [
+      1963089,
+      2802279,
+      3666149
+    ]
+  },
+  "dining_room_0052": {
+    "video": "assets/web-scenes/dining_room_0052/turntable-37dcfefc6402.mp4",
+    "poster": "assets/web-scenes/dining_room_0052/poster-37dcfefc6402.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 1649701,
+    "source_sizes": [
+      1949940,
+      2660896,
+      3513312
+    ]
+  },
+  "dining_room_0103": {
+    "video": "assets/web-scenes/dining_room_0103/turntable-9a9cf6cbc82d.mp4",
+    "poster": "assets/web-scenes/dining_room_0103/poster-9a9cf6cbc82d.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 2650719,
+    "source_sizes": [
+      2851625,
+      4128072,
+      5039247
+    ]
+  },
+  "dining_room_0112": {
+    "video": "assets/web-scenes/dining_room_0112/turntable-f03c6bb52538.mp4",
+    "poster": "assets/web-scenes/dining_room_0112/poster-f03c6bb52538.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 2545078,
+    "source_sizes": [
+      2630293,
+      4154148,
+      5499730
+    ]
+  },
+  "dining_room_0146": {
+    "video": "assets/web-scenes/dining_room_0146/turntable-af385de98629.mp4",
+    "poster": "assets/web-scenes/dining_room_0146/poster-af385de98629.webp",
+    "view_width": 800,
+    "frames": 360,
+    "fps": 30,
+    "duration": 12,
+    "bytes": 2137539,
+    "source_sizes": [
+      2025829,
+      3084523,
+      4560405
+    ]
+  }
+}
