@@ -27,7 +27,7 @@
       </div>
       <nav class="project-links" aria-label="Project resources">
         <button type="button" disabled title="Paper coming soon">Paper <small>Coming soon</small></button>
-        <button type="button" disabled title="Code coming soon">Code <small>Coming soon</small></button>
+        <a href="https://github.com/3dlg-hcvc/RoomToken">Code</a>
         <button type="button" disabled title="Video link coming soon">Video <small>Coming soon</small></button>
       </nav>
     </div></div>
@@ -60,7 +60,7 @@
       <figure class="figure-wide">
         <figcaption>Given input architecture, MDiRT progressively denoises masked RoomTokens while keeping architectural tokens fixed. Cross-slice attention shares information across heights to generate consistent object structure. We then group tokens into objects, recover their category, size, and pose, and retrieve and place matching 3D assets to form a furnished room.</figcaption>
         <a href="assets/figures/method.webp" target="_blank" rel="noopener" aria-label="Open method figure at full resolution">
-          <img src="assets/figures/method.webp" alt="MDiRT denoises structured tokens with architectural conditioning and cross-slice attention, then groups objects and retrieves furniture." width="2800" loading="lazy">
+          <img src="assets/figures/method.webp" alt="MDiRT takes masked slices and an architectural mask, predicts semantic, instance-color, and facing slices, then groups the tokens into objects and retrieves matching furniture." width="2800" height="807" loading="lazy">
         </a>
       </figure>
     </section>
